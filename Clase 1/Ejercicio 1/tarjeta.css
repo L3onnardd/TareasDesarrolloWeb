@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-/* Estilos del body */
 body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(135deg, #075F5A 0%, #155DFC 100%);
@@ -16,7 +15,6 @@ body {
     padding: 20px;
 }
 
-/* Container principal */
 .container {
     display: flex;
     justify-content: center;
@@ -24,7 +22,6 @@ body {
     width: 100%;
 }
 
-/* Estilos de la tarjeta */
 .card {
     background: rgba(280, 280, 280, 0.95);
     backdrop-filter: blur(10px);
@@ -43,12 +40,10 @@ body {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
-/* Container de la imagen */
 .image-container {
     margin-bottom: 20px;
 }
 
-/* Estilos de la imagen de perfil */
 .profile-image {
     width: 120px;
     height: 120px;
@@ -63,7 +58,6 @@ body {
     transform: scale(1.05);
 }
 
-/* Estilos del contenido */
 .info {
     text-align: left;
 }
@@ -90,7 +84,7 @@ body {
     line-height: 1.5;
 }
 
-/* Estilos para el texto en negrita */
+
 .career strong,
 .hobbies strong {
     color: #667eea;
