@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coca-Cola | Productos</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-coca-cola-red fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo-cocacola-blanco.svg" alt="Logo Coca-Cola en blanco" width="120">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="noticias.html">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="responsabilidad.html">Responsabilidad Social</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="py-5">
+        <div class="container">
+            <header class="text-center mb-5">
+                <h1 class="display-4 fw-bold">Nuestros Productos</h1>
+                <p class="lead text-muted">El sabor que prefieres, para cada momento.</p>
+            </header>
+
+            <section>
+                <h2 class="fw-bold border-bottom pb-2 mb-4">Clásicos</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100 text-center product-card">
+                            <img src="img/producto-original.png" class="card-img-top product-image" alt="Coca-Cola Sabor Original">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-bold">Coca-Cola Sabor Original</h5>
+                                <p class="card-text">La bebida icónica con su clásico y refrescante sabor a cola, dulce y con intensa carbonatación.</p>
+                                <p class="card-text fw-bold fs-5 text-coca-cola-red mt-auto">desde Q 4.40</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mt-5">
+                <h2 class="fw-bold border-bottom pb-2 mb-4">Sin Azúcar</h2>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100 text-center product-card">
+                            <img src="img/producto-zero.png" class="card-img-top product-image" alt="Coca-Cola Sin Azúcar">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-bold">Coca-Cola Sin Azúcar</h5>
+                                <p class="card-text">Busca imitar el sabor de la Coca-Cola Original, pero sin azúcares ni calorías, utilizando edulcorantes.</p>
+                                <p class="card-text fw-bold fs-5 text-coca-cola-red mt-auto">desde Q 3.65</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100 text-center product-card">
+                            <img src="img/producto-light.png" class="card-img-top product-image" alt="Coca-Cola Light">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-bold">Coca-Cola Light</h5>
+                                <p class="card-text">Una bebida sin calorías ni azúcar con un perfil de sabor distintivamente más ligero y menos dulce que la original.</p>
+                                <p class="card-text fw-bold fs-5 text-coca-cola-red mt-auto">desde Q 5.50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mt-5">
+                <h2 class="fw-bold border-bottom pb-2 mb-4">Energéticos</h2>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100 text-center product-card">
+                            <img src="img/producto-energy.png" class="card-img-top product-image" alt="Coca-Cola Energy">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-bold">Coca-Cola Energy</h5>
+                                <p class="card-text">La energía que necesitas con el gran sabor de Coca-Cola. Con cafeína, extracto de guaraná y vitaminas B.</p>
+                                <p class="card-text fw-bold fs-5 text-coca-cola-red mt-auto">desde Q 10.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="mt-5">
+                <h2 class="fw-bold text-center mb-4">Tabla Comparativa</h2>
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered text-center align-middle">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Producto</th>
+                                <th>Perfil de Sabor</th>
+                                <th>Calorías (por 355ml)</th>
+                                <th>Azúcar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Coca-Cola Sabor Original</td>
+                                <td>Clásico y dulce</td>
+                                <td>~149 kcal</td>
+                                <td>Sí</td>
+                            </tr>
+                            <tr>
+                                <td>Coca-Cola Sin Azúcar</td>
+                                <td>Sabor original</td>
+                                <td>0 kcal</td>
+                                <td>No</td>
+                            </tr>
+                            <tr>
+                                <td>Coca-Cola Light</td>
+                                <td>Ligero y distintivo</td>
+                                <td>0 kcal</td>
+                                <td>No</td>
+                            </tr>
+                            <tr>
+                                <td>Coca-Cola Energy</td>
+                                <td>Intenso con notas de guaraná</td>
+                                <td>~105 kcal</td>
+                                <td>Sí</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="text-center text-muted small mt-2">
+                    * Los valores nutricionales son aproximados y pueden variar.
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="coca-cola-footer text-white text-center p-3">
+        <div class="container">
+            <p class="m-0">Proyecto educativo - Coca-Cola 2025</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
