@@ -1,0 +1,31 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  padding: 25px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.titulo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.contenido p {
+  margin: 4px 0;
+}
+
+.acciones {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}

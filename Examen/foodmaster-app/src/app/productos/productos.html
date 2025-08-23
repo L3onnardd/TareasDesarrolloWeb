@@ -1,0 +1,21 @@
+<div class="grid">
+  <mat-card class="card" *ngFor="let p of productos">
+    <img mat-card-image [src]="p.imagen" [alt]="p.nombre">
+
+    <!-- Barra de título -->
+    <div class="titulo-barra">
+      {{ p.nombre }}
+    </div>
+
+    <mat-card-content class="contenido">
+      <p>{{ p.descripcion }}</p>
+      <p><strong>{{ p.precio | currency:'GTQ':'symbol':'1.2-2' }}</strong></p>
+    </mat-card-content>
+
+    <mat-card-actions class="acciones">
+      <button mat-raised-button color="primary" (click)="agregar(p)">
+        Agregar al carrito
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>

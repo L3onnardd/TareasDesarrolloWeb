@@ -1,0 +1,12 @@
+.toolbar {
+  font-size: 1.5rem;
+  font-weight: bold;
+  justify-content: center; /* Centra el título dentro de la barra */
+}
+
+.bienvenida {
+  text-align: center;     /* Centra el mensaje */
+  font-size: 1.2rem;      /* Un poco más grande que el texto normal */
+  margin: 20px 0;         /* Espacio arriba y abajo */
+  font-weight: 500;       /* Semi-negrita */
+}
